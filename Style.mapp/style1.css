@@ -1,4 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(51, 51, 51);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(78, 77, 77);
+}
 html,
 body {
   padding: 0px;
@@ -13,16 +30,12 @@ html {
   text-rendering: optimizelegibility;
 }
 
-body {
-  font-size: 1.3em;
-}
-.bildhead {
-}
 header {
   height: 100%;
   overflow: hidden;
   position: relative;
   background-size: cover;
+  font-size: 25px;
 }
 header .content {
   position: absolute;
@@ -39,6 +52,9 @@ header h2 {
 header h2 {
   text-transform: uppercase;
   margin-top: -0.5em;
+}
+nav {
+  font-size: 20px;
 }
 header hgroup {
   /* Centrerar loggan i början*/
@@ -68,14 +84,10 @@ header .overlay {
   background: #333 center no-repeat;
   background-size: cover;
   z-index: 0;
-  opacity: 0;
-  -webkit-filter: blur(4px);
 }
-img {
-  margin-right: 20px;
-}
+
 .site {
-  padding: 20em 0;
+  padding: 30px;
   text-align: center;
   background-color: #efefef;
   font-size: 0.8em;
@@ -105,4 +117,39 @@ img {
 .site nav a:hover {
   background: #333;
   color: #fff;
+}
+
+.flexbox1 {
+  background-color: #333;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font: "Lato", sans-serif;
+  font-size: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.flexbox1 p {
+  width: 200px;
+  align-items: center;
+  margin: auto;
+  border: 5px solid #fff;
+}
+
+.Cartier1 {
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.column1 {
+  float: left;
+  font-size: 20px;
+  top: 0px;
+  height: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
 }
