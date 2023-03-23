@@ -145,6 +145,10 @@ header .overlay {
   border-radius: 50px;
 }
 
+.title1 {
+  position: sticky;
+}
+
 .column1 {
   float: left;
   font-size: 20px;
