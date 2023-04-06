@@ -158,3 +158,8 @@ header .overlay {
   overflow: scroll;
   overflow-x: hidden;
 }
+
+#buy1 {
+  margin-top: 300px;
+  padding-bottom: 15px;
+}
