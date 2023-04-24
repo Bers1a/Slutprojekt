@@ -173,7 +173,7 @@ header .overlay {
 .miniheader {
   background-color: #333;
   display: inline-block;
-  margin: auto;
+  margin-bottom: 20px;
   border-radius: 20px;
   margin-left: 35%;
   margin-right: 35%;
@@ -278,4 +278,15 @@ header .overlay {
   to {
     opacity: 1;
   }
+}
+
+.infocartier {
+  color: #fff;
+  font-size: 30px;
+}
+
+#textcartier {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 15%;
 }
