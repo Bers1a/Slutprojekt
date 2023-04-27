@@ -285,3 +285,8 @@ header .overlay {
   color: #fff;
   margin-left: 15%;
 }
+
+#headrolex {
+  top: -100px;
+  position: relative;
+}
