@@ -224,6 +224,20 @@ header .overlay {
   margin: auto;
   border: 5px solid #fff;
 }
+
+.flexbox4 {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+/*startsida slut*/
+
 /* Cartier hemsida*/
 
 .miniheader {
@@ -350,6 +364,7 @@ header .overlay {
   margin-left: 15%;
 }
 
+/*rolex sida*/
 #headrolex {
   top: -100px;
   position: relative;
