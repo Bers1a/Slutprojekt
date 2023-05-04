@@ -120,21 +120,33 @@ header .overlay {
   color: #fff;
 }
 
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 20px;
+}
 .flexbox1 {
   background-color: #333;
   margin-top: 40px;
   text-align: center;
   color: #fff;
-  font: "Lato", sans-serif;
   font-size: 50px;
   border-radius: 15px;
+  margin-bottom: 100px;
   padding: 20px;
   width: 90%;
   margin: auto;
   display: flex;
 }
 
-.flexbox1 p {
+.p1 {
+  width: 200px;
+  align-items: center;
+  margin: auto;
+}
+
+.p2 {
   width: 200px;
   align-items: center;
   margin: auto;
@@ -163,11 +175,55 @@ header .overlay {
 }
 
 #buy1 {
-  margin-top: 300px;
+  margin-top: 100%;
   padding-bottom: 15px;
   font-size: 60px;
 }
 
+.flexbox3 {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.rolex1 {
+  width: 60%;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.felxboxcontainer {
+  flex-direction: column;
+  width: 75%;
+}
+
+#buy2 {
+  margin-top: 100%;
+}
+
+.infotextrolex {
+  overflow-y: scroll;
+  height: 600px;
+  font-size: 20px;
+  width: 27%;
+}
+
+.p3 {
+  align-items: center;
+  margin: auto;
+}
+
+.p4 {
+  align-items: center;
+  margin: auto;
+  border: 5px solid #fff;
+}
 /* Cartier hemsida*/
 
 .miniheader {
@@ -195,7 +251,14 @@ header .overlay {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.slideshow-container2 {
+  max-width: 600px;
   position: relative;
   margin: auto;
   padding-top: 40px;
@@ -225,6 +288,7 @@ header .overlay {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  z-index: 2;
 }
 
 /* pricken som indikerar vilden bild man är på till höger */
@@ -289,4 +353,17 @@ header .overlay {
 #headrolex {
   top: -100px;
   position: relative;
+}
+
+@media (min-width: 960) {
+  .rolex1 {
+    width: 70%;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
