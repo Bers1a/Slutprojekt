@@ -167,7 +167,7 @@ header .overlay {
 .title1 {
   position: sticky;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .column1 {
@@ -201,6 +201,11 @@ header .overlay {
   width: 60%;
   padding: 20px;
   border-radius: 50px;
+}
+
+.title3 {
+  color: white;
+  text-decoration: underline;
 }
 
 .felxboxcontainer {
@@ -248,6 +253,15 @@ header .overlay {
   padding: 5px;
 }
 
+.title4 {
+  color: white;
+  text-decoration: underline;
+}
+
+#buy3 {
+  margin-top: 100%;
+}
+
 .infotextomega {
   overflow-y: scroll;
   height: 600px;
@@ -260,17 +274,35 @@ header .overlay {
   margin: auto;
   align-items: center;
 }
+
+.fotter {
+  width: 90%;
+  height: auto;
+  background-color: #444;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+
 /*startsida slut*/
 
 /* Cartier hemsida*/
 
+#miniHeaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .miniheader {
   background-color: #333;
+  padding: 20px;
   display: inline-block;
   margin-bottom: 20px;
   border-radius: 20px;
-  margin-left: 35%;
-  margin-right: 35%;
 }
 .title2 {
   font-size: 50px;
@@ -332,7 +364,7 @@ header .overlay {
 
 /* pricken som indikerar vilden bild man är på till höger */
 .next {
-  right: 0;
+  right: 10%;
   border-radius: 3px 0 0 3px;
 }
 
@@ -405,5 +437,11 @@ header .overlay {
   .body {
     width: 100%;
     overflow-x: hidden;
+  }
+}
+
+@media (max-width: 1100) {
+  .slideimages1 {
+    width: auto;
   }
 }
