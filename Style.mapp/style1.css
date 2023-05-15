@@ -22,6 +22,7 @@ body {
   padding: 0px;
   margin: 0px;
   height: 100%;
+  overflow-x: hidden;
 }
 
 html {
@@ -155,6 +156,7 @@ header .overlay {
 .p2 {
   align-items: center;
   margin: auto;
+  font-size: 20px;
   border: 5px solid #fff;
 }
 
@@ -174,8 +176,9 @@ header .overlay {
   float: left;
   font-size: 20px;
   top: 0px;
-  height: 600px;
+  width: auto;
   overflow: scroll;
+  height: 600px;
   overflow-x: hidden;
 }
 
@@ -428,7 +431,75 @@ header .overlay {
   position: relative;
 }
 
-@media (min-width: 960) {
+/* login hemisda*/
+.loginbox {
+  background-color: #333;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.intuser {
+  font-size: 20px;
+}
+
+.password {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.intpass {
+  font-size: 20px;
+}
+
+.button {
+  padding: 15px;
+  width: 20%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* contact */
+
+.email {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.intemail {
+  font-size: 20px;
+}
+
+.message {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.intmess {
+  font-size: 20px;
+}
+
+.send {
+  padding: 15px;
+  width: 20%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+@media (min-width: 960px) {
   .rolex1 {
     width: 70%;
     padding: 20px;
@@ -441,8 +512,34 @@ header .overlay {
   }
 }
 
-@media (max-width: 1100) {
+@media (max-width: 1100px) {
   .slideimages1 {
     width: auto;
+  }
+}
+
+@media (max-width: 1095px) {
+  .infocartier {
+    font-size: 20px;
+  }
+  .column1 {
+    display: none;
+  }
+
+  .p3 {
+    display: none;
+  }
+
+  .p4 {
+    display: none;
+  }
+}
+
+@media (max-width: 777px) {
+  .flexbox1 {
+    top: 60px;
+  }
+  .site {
+    padding-bottom: 20%;
   }
 }
